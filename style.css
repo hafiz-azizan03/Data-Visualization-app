@@ -1,0 +1,59 @@
+/* style.css */
+body {
+    background-color: #062E4F;
+    color: #E0E0E0;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #FFF;
+}
+
+/* Add CSS to center the form on the page */
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: #FFF;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    background-color: #1f77b4;
+    color: #FFF;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+/* Style the flashed messages */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li.error {
+    color: red;
+    margin: 5px 0;
+}
+
+/* Add CSS to center the charts on the page */
+div.chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+

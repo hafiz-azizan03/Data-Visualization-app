@@ -1,0 +1,32 @@
+<!-- visualization.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Visualization</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Data Visualization</h1>
+
+    <div class="chart-container">
+        <h2>Bar Chart</h2>
+        <iframe src="{{ chart_path1 }}" width="800" height="600" seamless></iframe>
+    </div>
+
+    <div class="chart-container">
+        <h2>Line Chart</h2>
+        <iframe src="{{ chart_path2 }}" width="800" height="600" seamless></iframe>
+    </div>
+
+    <div class="chart-container">
+        <h2>Pie Chart</h2>
+        <iframe src="{{ chart_path3 }}" width="800" height="600" seamless></iframe>
+    </div>
+
+    <div class="chart-container">
+        <h2>Scatter Plot</h2>
+        <iframe src="{{ chart_path4 }}" width="800" height="600" seamless></iframe>
+    </div>
+
+</body>
+</html>
